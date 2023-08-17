@@ -4,6 +4,12 @@
   "description": "An Electron React TypeScript boilerplate",
   "author": "BipRaider",
   "main": "dist/main.js",
+  "keywords": [
+    "electron",
+    "react",
+    "esbuild",
+    "typescript"
+  ],
   "scripts": {
     "dev": "rimraf dist && run-p dev:esbuild dev:electron",
     "build": "tsc && cross-env NODE_ENV=\"production\" ts-node ./esbuild.ts",
